@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de productos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="contenedor">
+        <h1>Simulador de compra</h1>
+        <p>Seleccione un producto e ingrese la cantidad.</p>
+        <form id="formularioCompra">
+            <label for="producto">Producto:</label>
+            <select id="producto">
+                <option value="">Seleccione un producto</option>
+                <option value="teclado">Teclado</option>
+                <option value="mouse">Mouse</option>
+                <option value="pendrive">Pendrive</option>
+            </select>
+            <label for="precio">Precio unitario:</label>
+            <input type="number" id="precio" readonly>
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" id="cantidad" min="1" placeholder="Ejemplo: 2">
+            <button type="submit">Calcular compra</button>
+        </form>
+        <section id="mensaje" class="resultado">
+            Aquí aparecerá el resumen de compra.
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

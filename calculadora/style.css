@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 500px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Sombra más suave y moderna */
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0; /* Evita espacio extra arriba del contenedor */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Un poco más de espacio entre elementos */
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc; /* Añadido borde para que los inputs no se vean planos */
+  border-radius: 5px; /* Bordes suavizados consistentes */
+  box-sizing: border-box; /* Asegura que el padding no deforme el ancho */
+}
+
+button {
+  cursor: pointer;
+  background-color: #222;
+  color: white;
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.2s ease; /* Transición suave para el hover */
+}
+
+/* Efecto visual al pasar el cursor sobre el botón */
+button:hover {
+  background-color: #444; 
+}
+
+.resultado {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #e8f0fe;
+  border-radius: 5px;
+  border: 1px solid #d2e3fc; /* Borde sutil para darle estructura */
+}

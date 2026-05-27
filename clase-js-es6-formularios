@@ -1,0 +1,16 @@
+clase-js-es6-formularios/
+│
+├── calculadora/
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
+│
+├── compra-productos/
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
+│
+└── capturas/
+├── captura-01.png
+├── captura-02.png
+└── captura-03.png
